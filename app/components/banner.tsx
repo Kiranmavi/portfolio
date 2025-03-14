@@ -10,7 +10,7 @@ export default function Banner(){
             Hi, I&apos;m <span className="text-blue-500">Kiran</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8">
-            A Full Stack Developer passionate about creating interactive applications which helps to solve real world problems and helps you to maintain standarized solutions.
+            A Full Stack Developer passionate about creating an interactive applications which helps to solve real world problems and helps you to maintain standarized solutions.
           </p>
           <div
             className="bg-blue-500 w-max text-white px-8 py-3 rounded-full hover:bg-blue-600 transition cursor-pointer"
