@@ -1,7 +1,6 @@
-import React,{useState} from "react";
+import React from "react";
 
 export default function Nav(){
-    const [showModalNav,setShowMaodalNav]=useState(false)
     const headerItems=["Home","About","Projects","Contact Me"]
     return(
         <nav className="flex fixed  flex-row items-center z-20 justify-center w-[100%] p-2 bg-black/50 text-white h-[15vh] ">
@@ -10,7 +9,7 @@ export default function Nav(){
             </div>
             <ol className="flex flex-row justify-evenly w-[50%]">
                 {headerItems.map((item,index)=>(
-                    <li key={index} className="cursor-pointer" onClick={()=>{if(index+1 === headerItems.length) setSelectedHeaderItem(index)}}>{item}</li>
+                    <li key={index} className="cursor-pointer" onClick={()=>{}}>{item}</li>
                 ))}
             </ol>
             
