@@ -1,10 +1,17 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './componenets/home';
+import About from './componenets/about';
+
 
 function App() {
   return (
-    <div className='bg-white'> 
-      hello
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 
